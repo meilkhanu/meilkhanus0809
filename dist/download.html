@@ -8,6 +8,7 @@
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   </head>
   <body class="single is-preload">
     <!-- Wrapper -->
@@ -19,77 +20,13 @@
           <ul>
             <li><a href="index.html">首页</a></li>
             <li><a href="single.html">个人</a></li>
-            <li><a href="download.html">导航</a></li>
+            <li><a href="daohang.html">导航</a></li>
             <li><a href="download.html">归类</a></li>
             <li><a href="download.html">关于我</a></li>
           </ul>
         </nav>
-        <nav class="main">
-          <ul>
-            <li class="search">
-              <a class="fa-search" href="#search">搜索</a>
-              <form id="search" method="get" action="#">
-                <input type="text" name="query" placeholder="Search" />
-              </form>
-            </li>
-            <li class="menu">
-              <a class="fa-bars" href="#menu">菜单</a>
-            </li>
-          </ul>
-        </nav>
       </header>
-
-      <!-- Menu -->
-      <section id="menu">
-        <!-- Search -->
-        <section>
-          <form class="search" method="get" action="#">
-            <input type="text" name="query" placeholder="Search" />
-          </form>
-        </section>
-
-        <!-- Links -->
-        <section>
-          <ul class="links">
-            <li>
-              <a href="single.html">
-                <h3>个人</h3>
-                <p>兴趣爱好、技能、随笔等记录</p>
-              </a>
-            </li>
-            <li>
-              <a href="download.html">
-                <h3>导航</h3>
-                <p>此处收录了我常用的网站</p>
-              </a>
-            </li>
-            <li>
-              <a href="download.html">
-                <h3>归类</h3>
-                <p>“个人”中文档的分类归纳</p>
-              </a>
-            </li>
-            <li>
-              <a href="download.html">
-                <h3>关于我</h3>
-                <p>此处详细介绍了 贝谟拉比</p>
-              </a>
-            </li>
-          </ul>
-        </section>
-
-        <!-- Actions -->
-        <section>
-          <ul class="actions stacked">
-            <li>
-              <a href="#" class="button large fit"
-                >登录（暂时还没有做相应板块）</a
-              >
-            </li>
-          </ul>
-        </section>
-      </section>
-
+      
       <!-- Main -->
       <div id="main">
         <!-- Post -->
@@ -128,23 +65,31 @@
         </article>
       </div>
 
-<!-- 在 footer 部分之前添加这个 modal 结构 -->
-<div class="modal" id="wechat-modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <h3>扫码添加微信</h3>
-    <img src="images\weiChat.png" alt="微信二维码" class="qr-code" />
-    <p>打开微信扫一扫，添加好友</p>
-  </div>
-</div>
-<div class="modal" id="xhs-modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <h3>扫码关注小红书</h3>
-    <img src="images\XHS.jpg" alt="小红书二维码" class="qr-code" />
-    <p>打开小红书扫一扫，发现更多精彩</p>
-  </div>
-</div>
+      <!-- 在 footer 部分之前添加这个 modal 结构 -->
+        <div class="modal" id="wechat-modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>扫码添加微信</h3>
+            <img
+              src="assets\images\weiChat.png"
+              alt="微信二维码"
+              class="qr-code"
+            />
+            <p>打开微信扫一扫，添加好友</p>
+          </div>
+        </div>
+        <div class="modal" id="xhs-modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>扫码关注小红书</h3>
+            <img
+              src="assets\images\XHS.jpg"
+              alt="小红书二维码"
+              class="qr-code"
+            />
+            <p>打开小红书扫一扫，发现更多精彩</p>
+          </div>
+        </div>
 
         <!-- Footer -->
         <section id="footer">
